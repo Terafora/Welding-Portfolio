@@ -1,5 +1,6 @@
 .navbar-custom {
     background-color: #0d0f49;
+    font-weight: bold;
 }
 
 .navbar-custom .navbar-brand,
@@ -34,4 +35,15 @@
 #hero .container {
     position: relative;
     z-index: 2;
+}
+
+.btn-custom {
+    background-color: #c7be47;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #a57a26;
+    color: #fff;
 }
