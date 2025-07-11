@@ -92,6 +92,62 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial call
     updateActiveNavLink();
     
+    // Contact form handling
+    const contactForm = document.getElementById('contact-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const formStatus = document.getElementById('form-status');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Show loading state
+            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Sending...';
+            submitBtn.disabled = true;
+            formStatus.style.display = 'none';
+            
+            try {
+                const formData = new FormData(contactForm);
+                
+                const response = await fetch(contactForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                if (response.ok) {
+                    // Success
+                    formStatus.innerHTML = '<div class="alert alert-success"><i class="bi bi-check-circle me-2"></i>Thank you for your message! I\'ll get back to you soon.</div>';
+                    formStatus.style.display = 'block';
+                    contactForm.reset();
+                } else {
+                    throw new Error('Form submission failed');
+                }
+            } catch (error) {
+                // Error
+                formStatus.innerHTML = '<div class="alert alert-danger"><i class="bi bi-exclamation-triangle me-2"></i>Sorry, there was an error sending your message. Please try again or contact me directly at charlotte.stone.dev@proton.me</div>';
+                formStatus.style.display = 'block';
+            } finally {
+                // Reset button
+                submitBtn.innerHTML = 'Send';
+                submitBtn.disabled = false;
+            }
+        });
+    }
+    
+    // Check for success parameter in URL
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('success') === 'true') {
+        if (formStatus) {
+            formStatus.innerHTML = '<div class="alert alert-success"><i class="bi bi-check-circle me-2"></i>Thank you for your message! I\'ll get back to you soon.</div>';
+            formStatus.style.display = 'block';
+        }
+        // Remove the parameter from URL
+        window.history.replaceState({}, document.title, window.location.pathname);
+    }
+    
     // Persona divider animation
     const dividers = document.querySelectorAll('.persona-divider');
     

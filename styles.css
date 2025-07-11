@@ -6,10 +6,16 @@
   padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #0d0f49;
     color: #fff;
     font-family: "Open Sans", sans-serif;
+    width: 100%;
+    max-width: 100vw;
 }
 
 h1 {
@@ -64,7 +70,8 @@ html {
 section {
     padding: 10rem 1rem !important;
     min-height: 50vh;
-
+    width: 100%;
+    max-width: 100vw;
 }
 
 .section-diagonal {
@@ -74,6 +81,16 @@ section {
     color: #000;
     clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
     z-index: 1;
+    width: 100%;
+    max-width: 100vw;
+}
+
+/* Remove diagonal clip-path on medium and smaller screens */
+@media (max-width: 991.98px) {
+    .section-diagonal {
+        clip-path: none;
+        padding: 3rem 1rem;
+    }
 }
 
 
@@ -105,7 +122,7 @@ section {
 #hero {
     background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%), url('Assets/Hero.png') center center/cover no-repeat;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     display: flex;
     align-items: center;
@@ -175,7 +192,9 @@ section {
     font-weight: bold;
     position: relative;
     left: 0;
-    }
+    width: 100%;
+    max-width: 100vw;
+}
 
 /* Portfolio placeholder styling */
 .portfolio-placeholder {
@@ -343,4 +362,36 @@ section {
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+
+/* Contact form styling */
+#contact-form .form-control {
+    border: 2px solid #e9ecef;
+    transition: border-color 0.3s ease;
+}
+
+#contact-form .form-control:focus {
+    border-color: #c7be47;
+    box-shadow: 0 0 0 0.2rem rgba(199, 190, 71, 0.25);
+}
+
+#form-status .alert {
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+#form-status .alert-success {
+    background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+    color: #155724;
+}
+
+#form-status .alert-danger {
+    background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+    color: #721c24;
+}
+
+#submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
