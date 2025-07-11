@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Charlotte Stone – 溶接研修生 | スタッフォードシャーでのMIG/TIG溶接",
+    "description": "Charlotte Stoneの溶接プロジェクトとスキルを紹介するポートフォリオ。",
+    "keywords": "溶接, ポートフォリオ, プロジェクト, スキル, 仕事"
+  },
+  "nav": {
+    "brand": "Charlotte Stone 溶接",
+    "toggle": "ナビゲーション切り替え",
+    "home": "ホーム",
+    "about": "私について",
+    "skills": "スキル",
+    "portfolio": "ポートフォリオ",
+    "testimonials": "お客様の声",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "name": "Charlotte Stone",
+    "subtitle": "溶接研修生 | スタッフォードシャーでのMIG・TIG溶接",
+    "tagline": "すべての溶接において精密さ、品質、職人技に情熱を注いでいます。",
+    "cta": "私の作品を見る"
+  },
+  "about": {
+    "title": "私について",
+    "paragraph1": "こんにちは！私はCharlotte、スタッフォードシャーを拠点とする溶接研修生で、MIGおよびTIG溶接に重点を置いて成長しています。実用的な建設でも、より精密な製作作業でも、強く、清潔で、信頼できる溶接を作ることに誇りを持っています。全く異なる背景から溶接の世界に入りましたが、私を駆り立てるものは同じです：手作業への愛、新しいスキルの習得、そして仕事を正しく行うこと。常に新しい挑戦と、この技術で成長する機会を求めています。",
+    "paragraph2": "良い溶接は強度以上のものだと信じています。それは精密さ、忍耐、そして結果への誇りです。"
+  },
+  "skills": {
+    "title": "訓練とスキル",
+    "migTig": {
+      "title": "MIG・TIG溶接",
+      "description": "実践経験を持つMIGおよびTIG溶接技術の認定取得者"
+    },
+    "materials": {
+      "title": "材料専門知識",
+      "description": "鋼鉄、ステンレス鋼、アルミニウム溶接の経験"
+    },
+    "blueprint": {
+      "title": "設計図読解",
+      "description": "設計図読解と製作計画に熟練"
+    },
+    "safety": {
+      "title": "安全と品質",
+      "description": "細部への強い注意力と安全基準への取り組み"
+    }
+  },
+  "portfolio": {
+    "title": "ポートフォリオ",
+    "subtitle": "以下で私の最近の溶接プロジェクトをご覧ください。",
+    "projects": {
+      "steel": {
+        "title": "鋼鉄フレームワークプロジェクト",
+        "description": "構造フレームワークのMIG溶接"
+      },
+      "aluminum": {
+        "title": "アルミニウム製作",
+        "description": "TIG溶接精密作業"
+      },
+      "custom": {
+        "title": "カスタム金属加工",
+        "description": "装飾的な鋼鉄プロジェクト"
+      },
+      "repair": {
+        "title": "修理・復元",
+        "description": "機器および工具の復元"
+      }
+    },
+    "comingSoon": "画像近日公開"
+  },
+  "testimonials": {
+    "title": "お客様の声",
+    "subtitle": "私の溶接作業について人々が言っていること。",
+    "reviews": {
+      "review1": "クライアントの証言は利用可能になり次第ここに掲載されます。",
+      "review2": "品質の高い職人技を強調する別のクライアントレビュー。",
+      "review3": "プロフェッショナルなサービスと細部への注意についてのフィードバック。",
+      "review4": "信頼性と職人技の品質を強調するレビュー。"
+    },
+    "clientName": "クライアント名",
+    "projectType": "プロジェクトタイプ",
+    "comingSoon": "近日公開"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "一緒に働くことに興味がありますか、または質問がありますか？下記からお気軽にお問い合わせください！",
+    "form": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "message": "メッセージ",
+      "send": "送信",
+      "sending": "送信中...",
+      "success": "メッセージをありがとうございます！すぐにご返信いたします。",
+      "error": "申し訳ございませんが、メッセージの送信中にエラーが発生しました。もう一度お試しいただくか、charlotte.stone.dev@proton.meまで直接ご連絡ください。"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Charlotte Stone. 全著作権所有。"
+  }
+}

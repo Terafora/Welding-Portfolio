@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Charlotte Stone – Trainee Welder | MIG/TIG Welding in Staffordshire",
+    "description": "A portfolio showcasing welding projects and skills by Charlotte Stone.",
+    "keywords": "welding, portfolio, projects, skills, work"
+  },
+  "nav": {
+    "brand": "Charlotte Stone Welding",
+    "toggle": "Toggle navigation",
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Charlotte Stone",
+    "subtitle": "Trainee Welder | MIG & TIG Welding in Staffordshire",
+    "tagline": "Passionate about precision, quality, and craftsmanship in every weld.",
+    "cta": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "Hello! I'm Charlotte, a trainee welder based in Staffordshire with a growing focus on MIG and TIG welding. I take pride in creating strong, clean, and reliable welds—whether it's for practical builds or finer fabrication work. I came to welding from a very different background, but what drives me is the same: a love for hands-on work, learning new skills, and doing the job right. I'm always looking for new challenges and opportunities to grow in this trade.",
+    "paragraph2": "I believe good welding is about more than strength—it's about precision, patience, and pride in the result."
+  },
+  "skills": {
+    "title": "Training & Skills",
+    "migTig": {
+      "title": "MIG & TIG Welding",
+      "description": "Certified in MIG and TIG welding techniques with hands-on experience"
+    },
+    "materials": {
+      "title": "Materials Expertise",
+      "description": "Experience with steel, stainless steel, and aluminum welding"
+    },
+    "blueprint": {
+      "title": "Blueprint Reading",
+      "description": "Skilled in blueprint reading and fabrication planning"
+    },
+    "safety": {
+      "title": "Safety & Quality",
+      "description": "Strong attention to detail and commitment to safety standards"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Check out some of my recent welding projects below.",
+    "projects": {
+      "steel": {
+        "title": "Steel Framework Project",
+        "description": "MIG welding structural framework"
+      },
+      "aluminum": {
+        "title": "Aluminum Fabrication",
+        "description": "TIG welding precision work"
+      },
+      "custom": {
+        "title": "Custom Metalwork",
+        "description": "Decorative steel projects"
+      },
+      "repair": {
+        "title": "Repair & Restoration",
+        "description": "Equipment and tool restoration"
+      }
+    },
+    "comingSoon": "Images Coming Soon"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What people say about my welding work.",
+    "reviews": {
+      "review1": "Client testimonial will be featured here once available.",
+      "review2": "Another client review highlighting quality workmanship.",
+      "review3": "Feedback about professional service and attention to detail.",
+      "review4": "Review emphasizing reliability and craftsmanship quality."
+    },
+    "clientName": "Client Name",
+    "projectType": "Project Type",
+    "comingSoon": "Coming Soon"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Interested in working together or have a question? Reach out below!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Thank you for your message! I'll get back to you soon.",
+      "error": "Sorry, there was an error sending your message. Please try again or contact me directly at charlotte.stone.dev@proton.me"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Charlotte Stone. All rights reserved."
+  }
+}

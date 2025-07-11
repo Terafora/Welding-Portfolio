@@ -1,4 +1,105 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // i18n (Internationalization) System
+    class I18n {
+        constructor() {
+            this.currentLanguage = localStorage.getItem('language') || 'en';
+            this.translations = {};
+            this.loadLanguage(this.currentLanguage);
+        }
+
+        async loadLanguage(lang) {
+            try {
+                const response = await fetch(`lang/${lang}.json`);
+                if (response.ok) {
+                    this.translations = await response.json();
+                    this.currentLanguage = lang;
+                    localStorage.setItem('language', lang);
+                    this.updatePage();
+                    this.updateHtmlLang();
+                } else {
+                    console.warn(`Language file for ${lang} not found, falling back to English`);
+                    if (lang !== 'en') {
+                        await this.loadLanguage('en');
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading language file:', error);
+            }
+        }
+
+        translate(key) {
+            const keys = key.split('.');
+            let value = this.translations;
+            
+            for (const k of keys) {
+                if (value && typeof value === 'object' && k in value) {
+                    value = value[k];
+                } else {
+                    console.warn(`Translation key not found: ${key}`);
+                    return key;
+                }
+            }
+            
+            return value;
+        }
+
+        updatePage() {
+            // Update meta tags
+            document.title = this.translate('meta.title');
+            document.querySelector('meta[name="description"]').setAttribute('content', this.translate('meta.description'));
+            document.querySelector('meta[name="keywords"]').setAttribute('content', this.translate('meta.keywords'));
+
+            // Update all elements with data-i18n attribute
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                const translation = this.translate(key);
+                
+                if (element.tagName === 'INPUT' && element.type === 'submit') {
+                    element.value = translation;
+                } else if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                    element.placeholder = translation;
+                } else {
+                    element.textContent = translation;
+                }
+            });
+
+            // Update elements with data-i18n-html attribute (for HTML content)
+            document.querySelectorAll('[data-i18n-html]').forEach(element => {
+                const key = element.getAttribute('data-i18n-html');
+                element.innerHTML = this.translate(key);
+            });
+
+            // Update aria-label attributes
+            document.querySelectorAll('[data-i18n-aria]').forEach(element => {
+                const key = element.getAttribute('data-i18n-aria');
+                element.setAttribute('aria-label', this.translate(key));
+            });
+        }
+
+        updateHtmlLang() {
+            document.documentElement.lang = this.currentLanguage;
+        }
+
+        changeLanguage(lang) {
+            if (lang !== this.currentLanguage) {
+                this.loadLanguage(lang);
+            }
+        }
+
+        getCurrentLanguage() {
+            return this.currentLanguage;
+        }
+
+        getAvailableLanguages() {
+            return ['en', 'es', 'cy', 'fr', 'jp']; // Add more languages as you create them
+        }
+    }
+
+    // Initialize i18n system
+    const i18n = new I18n();
+    
+    // Make i18n available globally for language switcher
+    window.i18n = i18n;
     // Custom smooth scroll function with ease-in-out easing
     function smoothScrollToPosition(targetPosition, duration = 800) {
         const startPosition = window.pageYOffset;
@@ -102,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             
             // Show loading state
-            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Sending...';
+            submitBtn.innerHTML = `<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>${i18n.translate('contact.form.sending')}`;
             submitBtn.disabled = true;
             formStatus.style.display = 'none';
             
@@ -119,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 if (response.ok) {
                     // Success
-                    formStatus.innerHTML = '<div class="alert alert-success"><i class="bi bi-check-circle me-2"></i>Thank you for your message! I\'ll get back to you soon.</div>';
+                    formStatus.innerHTML = `<div class="alert alert-success"><i class="bi bi-check-circle me-2"></i>${i18n.translate('contact.form.success')}</div>`;
                     formStatus.style.display = 'block';
                     contactForm.reset();
                 } else {
@@ -127,11 +228,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             } catch (error) {
                 // Error
-                formStatus.innerHTML = '<div class="alert alert-danger"><i class="bi bi-exclamation-triangle me-2"></i>Sorry, there was an error sending your message. Please try again or contact me directly at charlotte.stone.dev@proton.me</div>';
+                formStatus.innerHTML = `<div class="alert alert-danger"><i class="bi bi-exclamation-triangle me-2"></i>${i18n.translate('contact.form.error')}</div>`;
                 formStatus.style.display = 'block';
             } finally {
                 // Reset button
-                submitBtn.innerHTML = 'Send';
+                submitBtn.textContent = i18n.translate('contact.form.send');
                 submitBtn.disabled = false;
             }
         });
@@ -141,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('success') === 'true') {
         if (formStatus) {
-            formStatus.innerHTML = '<div class="alert alert-success"><i class="bi bi-check-circle me-2"></i>Thank you for your message! I\'ll get back to you soon.</div>';
+            formStatus.innerHTML = `<div class="alert alert-success"><i class="bi bi-check-circle me-2"></i>${i18n.translate('contact.form.success')}</div>`;
             formStatus.style.display = 'block';
         }
         // Remove the parameter from URL

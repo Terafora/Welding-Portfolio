@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Charlotte Stone – Soldadora en Formación | Soldadura MIG/TIG en Staffordshire",
+    "description": "Un portafolio que muestra proyectos y habilidades de soldadura de Charlotte Stone.",
+    "keywords": "soldadura, portafolio, proyectos, habilidades, trabajo"
+  },
+  "nav": {
+    "brand": "Charlotte Stone Soldadura",
+    "toggle": "Cambiar navegación",
+    "home": "Inicio",
+    "about": "Acerca de",
+    "skills": "Habilidades",
+    "portfolio": "Portafolio",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "name": "Charlotte Stone",
+    "subtitle": "Soldadora en Formación | Soldadura MIG y TIG en Staffordshire",
+    "tagline": "Apasionada por la precisión, calidad y artesanía en cada soldadura.",
+    "cta": "Ver Mi Trabajo"
+  },
+  "about": {
+    "title": "Acerca de Mí",
+    "paragraph1": "¡Hola! Soy Charlotte, una soldadora en formación con base en Staffordshire con un enfoque creciente en soldadura MIG y TIG. Me enorgullezco de crear soldaduras fuertes, limpias y confiables, ya sea para construcciones prácticas o trabajos de fabricación más finos. Llegué a la soldadura desde un trasfondo muy diferente, pero lo que me impulsa es lo mismo: amor por el trabajo manual, aprender nuevas habilidades y hacer el trabajo correctamente. Siempre busco nuevos desafíos y oportunidades para crecer en este oficio.",
+    "paragraph2": "Creo que una buena soldadura es más que fuerza: se trata de precisión, paciencia y orgullo en el resultado."
+  },
+  "skills": {
+    "title": "Formación y Habilidades",
+    "migTig": {
+      "title": "Soldadura MIG y TIG",
+      "description": "Certificada en técnicas de soldadura MIG y TIG con experiencia práctica"
+    },
+    "materials": {
+      "title": "Experiencia en Materiales",
+      "description": "Experiencia con soldadura de acero, acero inoxidable y aluminio"
+    },
+    "blueprint": {
+      "title": "Lectura de Planos",
+      "description": "Hábil en lectura de planos y planificación de fabricación"
+    },
+    "safety": {
+      "title": "Seguridad y Calidad",
+      "description": "Gran atención al detalle y compromiso con los estándares de seguridad"
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "subtitle": "Echa un vistazo a algunos de mis proyectos de soldadura recientes a continuación.",
+    "projects": {
+      "steel": {
+        "title": "Proyecto de Estructura de Acero",
+        "description": "Soldadura MIG de estructura"
+      },
+      "aluminum": {
+        "title": "Fabricación de Aluminio",
+        "description": "Trabajo de precisión con soldadura TIG"
+      },
+      "custom": {
+        "title": "Metalurgia Personalizada",
+        "description": "Proyectos decorativos de acero"
+      },
+      "repair": {
+        "title": "Reparación y Restauración",
+        "description": "Restauración de equipos y herramientas"
+      }
+    },
+    "comingSoon": "Imágenes Próximamente"
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "subtitle": "Lo que la gente dice sobre mi trabajo de soldadura.",
+    "reviews": {
+      "review1": "El testimonio del cliente se presentará aquí una vez disponible.",
+      "review2": "Otra reseña del cliente destacando la calidad del trabajo.",
+      "review3": "Comentarios sobre el servicio profesional y atención al detalle.",
+      "review4": "Reseña enfatizando la confiabilidad y calidad de la artesanía."
+    },
+    "clientName": "Nombre del Cliente",
+    "projectType": "Tipo de Proyecto",
+    "comingSoon": "Próximamente"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Interesado en trabajar juntos o tienes alguna pregunta? ¡Contáctame abajo!",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "message": "Mensaje",
+      "send": "Enviar",
+      "sending": "Enviando...",
+      "success": "¡Gracias por tu mensaje! Te responderé pronto.",
+      "error": "Lo siento, hubo un error al enviar tu mensaje. Inténtalo de nuevo o contáctame directamente en charlotte.stone.dev@proton.me"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Charlotte Stone. Todos los derechos reservados."
+  }
+}

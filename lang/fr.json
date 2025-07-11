@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Charlotte Stone – Soudeuse en Formation | Soudage MIG/TIG dans le Staffordshire",
+    "description": "Un portfolio présentant les projets et compétences de soudage de Charlotte Stone.",
+    "keywords": "soudage, portfolio, projets, compétences, travail"
+  },
+  "nav": {
+    "brand": "Charlotte Stone Soudage",
+    "toggle": "Basculer la navigation",
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "portfolio": "Portfolio",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Charlotte Stone",
+    "subtitle": "Soudeuse en Formation | Soudage MIG et TIG dans le Staffordshire",
+    "tagline": "Passionnée par la précision, la qualité et le savoir-faire dans chaque soudure.",
+    "cta": "Voir Mon Travail"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "paragraph1": "Bonjour ! Je suis Charlotte, une soudeuse en formation basée dans le Staffordshire avec un intérêt croissant pour le soudage MIG et TIG. Je suis fière de créer des soudures solides, propres et fiables—que ce soit pour des constructions pratiques ou des travaux de fabrication plus fins. Je suis venue au soudage d'un milieu très différent, mais ce qui me motive reste le même : l'amour du travail manuel, l'apprentissage de nouvelles compétences et bien faire le travail. Je recherche toujours de nouveaux défis et opportunités pour grandir dans ce métier.",
+    "paragraph2": "Je crois qu'un bon soudage va au-delà de la résistance—il s'agit de précision, de patience et de fierté du résultat."
+  },
+  "skills": {
+    "title": "Formation et Compétences",
+    "migTig": {
+      "title": "Soudage MIG et TIG",
+      "description": "Certifiée en techniques de soudage MIG et TIG avec expérience pratique"
+    },
+    "materials": {
+      "title": "Expertise des Matériaux",
+      "description": "Expérience avec le soudage d'acier, d'acier inoxydable et d'aluminium"
+    },
+    "blueprint": {
+      "title": "Lecture de Plans",
+      "description": "Compétente en lecture de plans et planification de fabrication"
+    },
+    "safety": {
+      "title": "Sécurité et Qualité",
+      "description": "Grande attention aux détails et engagement envers les normes de sécurité"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Découvrez quelques-uns de mes projets de soudage récents ci-dessous.",
+    "projects": {
+      "steel": {
+        "title": "Projet de Charpente en Acier",
+        "description": "Soudage MIG de charpente structurelle"
+      },
+      "aluminum": {
+        "title": "Fabrication d'Aluminium",
+        "description": "Travail de précision au soudage TIG"
+      },
+      "custom": {
+        "title": "Métallurgie Personnalisée",
+        "description": "Projets décoratifs en acier"
+      },
+      "repair": {
+        "title": "Réparation et Restauration",
+        "description": "Restauration d'équipements et d'outils"
+      }
+    },
+    "comingSoon": "Images à Venir"
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Ce que les gens disent de mon travail de soudage.",
+    "reviews": {
+      "review1": "Le témoignage du client sera présenté ici une fois disponible.",
+      "review2": "Un autre avis client mettant en valeur la qualité du travail.",
+      "review3": "Commentaires sur le service professionnel et l'attention aux détails.",
+      "review4": "Avis soulignant la fiabilité et la qualité de l'artisanat."
+    },
+    "clientName": "Nom du Client",
+    "projectType": "Type de Projet",
+    "comingSoon": "Bientôt Disponible"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Intéressé à travailler ensemble ou avez-vous une question ? Contactez-moi ci-dessous !",
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Message",
+      "send": "Envoyer",
+      "sending": "Envoi en cours...",
+      "success": "Merci pour votre message ! Je vous répondrai bientôt.",
+      "error": "Désolé, il y a eu une erreur lors de l'envoi de votre message. Veuillez réessayer ou me contacter directement à charlotte.stone.dev@proton.me"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Charlotte Stone. Tous droits réservés."
+  }
+}
