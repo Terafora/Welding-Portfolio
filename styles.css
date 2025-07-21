@@ -122,6 +122,16 @@ section {
 .navbar-custom .dropdown-menu {
     background-color: #0d0f49;
     border: 1px solid #c7be47;
+    /* Fix dropdown positioning on large screens */
+    right: 0;
+    left: auto;
+}
+
+/* Ensure dropdown appears to the left of the toggle on large screens */
+@media (min-width: 992px) {
+    .navbar-custom .dropdown-menu {
+        transform: translateX(-50%);
+    }
 }
 
 .navbar-custom .dropdown-item {
