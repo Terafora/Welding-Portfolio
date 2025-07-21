@@ -122,15 +122,30 @@ section {
 .navbar-custom .dropdown-menu {
     background-color: #0d0f49;
     border: 1px solid #c7be47;
-    /* Fix dropdown positioning on large screens */
-    right: 0;
-    left: auto;
+    /* Fix dropdown positioning on large screens with higher specificity */
+    right: 0 !important;
+    left: auto !important;
+    transform: translateX(-50%) !important;
+    min-width: 150px;
 }
 
-/* Ensure dropdown appears to the left of the toggle on large screens */
+/* Additional positioning fix for different screen sizes */
 @media (min-width: 992px) {
+    .navbar-custom .nav-item.dropdown .dropdown-menu {
+        right: 0 !important;
+        left: auto !important;
+        transform: translateX(-50%) !important;
+        margin-top: 0.5rem;
+    }
+}
+
+/* Ensure dropdown doesn't go off-screen on smaller viewports */
+@media (max-width: 991.98px) {
     .navbar-custom .dropdown-menu {
-        transform: translateX(-50%);
+        right: 0 !important;
+        left: auto !important;
+        transform: translateX(-10px) !important;
+        min-width: 120px;
     }
 }
 

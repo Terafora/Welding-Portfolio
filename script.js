@@ -276,4 +276,43 @@ document.addEventListener('DOMContentLoaded', function() {
         divider.style.transform = 'translateY(20px)';
         divider.style.transition = 'all 0.6s ease-out';
     });
+    
+    // Fix language dropdown positioning for live environment
+    function fixDropdownPositioning() {
+        const languageDropdown = document.getElementById('languageDropdown');
+        const dropdownMenu = languageDropdown?.nextElementSibling;
+        
+        if (languageDropdown && dropdownMenu) {
+            // Add event listener for when dropdown is shown
+            languageDropdown.addEventListener('shown.bs.dropdown', function() {
+                // Force positioning for live environment
+                const rect = languageDropdown.getBoundingClientRect();
+                const viewportWidth = window.innerWidth;
+                
+                // Check if dropdown would go off-screen
+                if (rect.right + dropdownMenu.offsetWidth > viewportWidth) {
+                    dropdownMenu.style.right = '0';
+                    dropdownMenu.style.left = 'auto';
+                    dropdownMenu.style.transform = 'translateX(-50%)';
+                }
+            });
+            
+            // Also fix on window resize
+            window.addEventListener('resize', function() {
+                if (dropdownMenu.classList.contains('show')) {
+                    const rect = languageDropdown.getBoundingClientRect();
+                    const viewportWidth = window.innerWidth;
+                    
+                    if (rect.right + dropdownMenu.offsetWidth > viewportWidth) {
+                        dropdownMenu.style.right = '0';
+                        dropdownMenu.style.left = 'auto';
+                        dropdownMenu.style.transform = 'translateX(-50%)';
+                    }
+                }
+            });
+        }
+    }
+    
+    // Initialize dropdown positioning fix
+    fixDropdownPositioning();
 });
