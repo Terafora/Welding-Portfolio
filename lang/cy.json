@@ -1,12 +1,12 @@
 
 {
   "meta": {
-    "title": "Charlotte Stone – Hyfforddai Weldwr | Weldio MIG/TIG yn Swydd Stafford",
+    "title": "Charlotte Stone – Hyfforddai Weldwr | Weldio MIG a Peiriannu CNC yn Swydd Stafford",
     "description": "Portffolio sy'n arddangos prosiectau a sgiliau weldio gan Charlotte Stone.",
     "keywords": "weldio, portffolio, prosiectau, sgiliau, gwaith"
   },
   "nav": {
-    "brand": "Charlotte Stone Weldio",
+    "brand": "Charlotte Stone Weldio / Peiriannu",
     "toggle": "Newid llywio",
     "home": "Cartref",
     "about": "Amdanaf",
@@ -17,24 +17,24 @@
   },
   "hero": {
     "name": "Charlotte Stone",
-    "subtitle": "Hyfforddai Weldwr | Weldio MIG a TIG yn Swydd Stafford",
-    "tagline": "Angerddol am fanwl gywirdeb, ansawdd, a chrefftwaith ym mhob weld.",
+    "subtitle": "Hyfforddai Weldwr MIG a Gweithredwr CNC yn Swydd Stafford",
+    "tagline": "Angerddol am fanwl gywirdeb, ansawdd, a chrefftwaith ym mhob creadigaeth.",
     "cta": "Gweld Fy Ngwaith"
   },
   "about": {
     "title": "Amdanaf Fi",
-    "paragraph1": "Helo! Fi yw Charlotte, hyfforddai weldwr wedi'i lleoli yn Swydd Stafford gyda ffocws cynyddol ar weldio MIG a TIG. Rwy'n ymfalchïo mewn creu weldiadau cryf, glân, a dibynadwy—boed ar gyfer adeiladau ymarferol neu waith saernïo manylach. Deuthum i weldio o gefndir gwahanol iawn, ond yr hyn sy'n fy ngyrru yw'r un peth: cariad at waith dwylo, dysgu sgiliau newydd, a gwneud y gwaith yn iawn. Rwy'n chwilio'n barhaus am heriau newydd a chyfleoedd i dyfu yn y fasnach hon.",
+    "paragraph1": "Helo! Fi yw Charlotte, hyfforddai weldwr a pheirianydd wedi'i lleoli yn Swydd Stafford gyda ffocws cynyddol ar weldio MIG a TIG. Rwy'n ymfalchïo mewn creu weldiadau cryf, glân, a dibynadwy—boed ar gyfer adeiladau ymarferol neu waith saernïo manylach. Deuthum i weldio o gefndir gwahanol iawn, ond yr hyn sy'n fy ngyrru yw'r un peth: cariad at waith dwylo, dysgu sgiliau newydd, a gwneud y gwaith yn iawn. Rwy'n chwilio'n barhaus am heriau newydd a chyfleoedd i dyfu yn y fasnach hon.",
     "paragraph2": "Credaf fod weldio da yn ymwneud â mwy na chryfder—mae'n ymwneud â manwl gywirdeb, amynedd, a balchder yn y canlyniad."
   },
   "skills": {
     "title": "Hyfforddiant a Sgiliau",
     "migTig": {
-      "title": "Weldio MIG a TIG",
+      "title": "Weldio MIG",
       "description": "Wedi'i ardystio mewn technegau weldio MIG a TIG gyda phrofiad ymarferol"
     },
     "materials": {
-      "title": "Arbenigedd Deunyddiau",
-      "description": "Profiad gyda weldio dur, dur di-staen, ac alwminiwm"
+      "title": "Peiriannu CNC",
+      "description": "Profiad gyda phrosesau a thechnegau peiriannu CNC"
     },
     "blueprint": {
       "title": "Darllen Cynlluniau",

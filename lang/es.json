@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Charlotte Stone – Soldadora en Formación | Soldadura MIG/TIG en Staffordshire",
+    "title": "Charlotte Stone – Soldadora en Formación | Soldadura MIG y mecanizado CNC en Staffordshire",
     "description": "Un portafolio que muestra proyectos y habilidades de soldadura de Charlotte Stone.",
     "keywords": "soldadura, portafolio, proyectos, habilidades, trabajo"
   },
   "nav": {
-    "brand": "Charlotte Stone Soldadura",
+    "brand": "Charlotte Stone Soldadura / Mecanizado",
     "toggle": "Cambiar navegación",
     "home": "Inicio",
     "about": "Acerca de",
@@ -16,24 +16,24 @@
   },
   "hero": {
     "name": "Charlotte Stone",
-    "subtitle": "Soldadora en Formación | Soldadura MIG y TIG en Staffordshire",
-    "tagline": "Apasionada por la precisión, calidad y artesanía en cada soldadura.",
+    "subtitle": "Soldadora MIG en Formación y Operadora CNC en Staffordshire",
+    "tagline": "Apasionada por la precisión, calidad y artesanía en cada creación.",
     "cta": "Ver Mi Trabajo"
   },
   "about": {
     "title": "Acerca de Mí",
-    "paragraph1": "¡Hola! Soy Charlotte, una soldadora en formación con base en Staffordshire con un enfoque creciente en soldadura MIG y TIG. Me enorgullezco de crear soldaduras fuertes, limpias y confiables, ya sea para construcciones prácticas o trabajos de fabricación más finos. Llegué a la soldadura desde un trasfondo muy diferente, pero lo que me impulsa es lo mismo: amor por el trabajo manual, aprender nuevas habilidades y hacer el trabajo correctamente. Siempre busco nuevos desafíos y oportunidades para crecer en este oficio.",
+    "paragraph1": "¡Hola! Soy Charlotte, una soldadora y mecanizadora en formación con base en Staffordshire con un enfoque creciente en soldadura MIG y TIG. Me enorgullezco de crear soldaduras fuertes, limpias y confiables, ya sea para construcciones prácticas o trabajos de fabricación más finos. Llegué a la soldadura desde un trasfondo muy diferente, pero lo que me impulsa es lo mismo: amor por el trabajo manual, aprender nuevas habilidades y hacer el trabajo correctamente. Siempre busco nuevos desafíos y oportunidades para crecer en este oficio.",
     "paragraph2": "Creo que una buena soldadura es más que fuerza: se trata de precisión, paciencia y orgullo en el resultado."
   },
   "skills": {
     "title": "Formación y Habilidades",
     "migTig": {
-      "title": "Soldadura MIG y TIG",
+      "title": "Soldadura MIG",
       "description": "Certificada en técnicas de soldadura MIG y TIG con experiencia práctica"
     },
     "materials": {
-      "title": "Experiencia en Materiales",
-      "description": "Experiencia con soldadura de acero, acero inoxidable y aluminio"
+      "title": "Mecanizado CNC",
+      "description": "Experiencia con procesos y técnicas de mecanizado CNC"
     },
     "blueprint": {
       "title": "Lectura de Planos",

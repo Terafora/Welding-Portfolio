@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Charlotte Stone – Soudeuse en Formation | Soudage MIG/TIG dans le Staffordshire",
+    "title": "Charlotte Stone – Soudeuse Stagiaire | Soudage MIG et Usinage CNC dans le Staffordshire",
     "description": "Un portfolio présentant les projets et compétences de soudage de Charlotte Stone.",
     "keywords": "soudage, portfolio, projets, compétences, travail"
   },
   "nav": {
-    "brand": "Charlotte Stone Soudage",
+    "brand": "Charlotte Stone Soudage / Usinage",
     "toggle": "Basculer la navigation",
     "home": "Accueil",
     "about": "À propos",
@@ -16,24 +16,24 @@
   },
   "hero": {
     "name": "Charlotte Stone",
-    "subtitle": "Soudeuse en Formation | Soudage MIG et TIG dans le Staffordshire",
-    "tagline": "Passionnée par la précision, la qualité et le savoir-faire dans chaque soudure.",
+    "subtitle": "Soudeuse MIG Stagiaire et Opératrice CNC dans le Staffordshire",
+    "tagline": "Passionnée par la précision, la qualité et le savoir-faire dans chaque création.",
     "cta": "Voir Mon Travail"
   },
   "about": {
     "title": "À Propos de Moi",
-    "paragraph1": "Bonjour ! Je suis Charlotte, une soudeuse en formation basée dans le Staffordshire avec un intérêt croissant pour le soudage MIG et TIG. Je suis fière de créer des soudures solides, propres et fiables—que ce soit pour des constructions pratiques ou des travaux de fabrication plus fins. Je suis venue au soudage d'un milieu très différent, mais ce qui me motive reste le même : l'amour du travail manuel, l'apprentissage de nouvelles compétences et bien faire le travail. Je recherche toujours de nouveaux défis et opportunités pour grandir dans ce métier.",
+    "paragraph1": "Bonjour ! Je suis Charlotte, une soudeuse et usineur stagiaire basée dans le Staffordshire avec une concentration croissante sur le soudage MIG et TIG. Je suis fière de créer des soudures solides, propres et fiables—que ce soit pour des constructions pratiques ou des travaux de fabrication plus fins. Je suis venue au soudage d'un milieu très différent, mais ce qui me motive reste le même : un amour pour le travail manuel, l'apprentissage de nouvelles compétences et bien faire le travail. Je recherche toujours de nouveaux défis et des opportunités de croître dans ce métier.",
     "paragraph2": "Je crois qu'un bon soudage va au-delà de la résistance—il s'agit de précision, de patience et de fierté du résultat."
   },
   "skills": {
     "title": "Formation et Compétences",
     "migTig": {
-      "title": "Soudage MIG et TIG",
+      "title": "Soudage MIG",
       "description": "Certifiée en techniques de soudage MIG et TIG avec expérience pratique"
     },
     "materials": {
-      "title": "Expertise des Matériaux",
-      "description": "Expérience avec le soudage d'acier, d'acier inoxydable et d'aluminium"
+      "title": "Usinage CNC",
+      "description": "Expérience avec les processus et techniques d'usinage CNC"
     },
     "blueprint": {
       "title": "Lecture de Plans",
@@ -46,7 +46,7 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "subtitle": "Découvrez quelques-uns de mes projets de soudage récents ci-dessous.",
+    "subtitle": "Découvrez quelques-uns de mes récents projets de soudage ci-dessous.",
     "projects": {
       "steel": {
         "title": "Projet de Charpente en Acier",
@@ -57,7 +57,7 @@
         "description": "Travail de précision au soudage TIG"
       },
       "custom": {
-        "title": "Métallurgie Personnalisée",
+        "title": "Métallerie Personnalisée",
         "description": "Projets décoratifs en acier"
       },
       "repair": {
@@ -72,17 +72,17 @@
     "subtitle": "Ce que les gens disent de mon travail de soudage.",
     "reviews": {
       "review1": "Le témoignage du client sera présenté ici une fois disponible.",
-      "review2": "Un autre avis client mettant en valeur la qualité du travail.",
-      "review3": "Commentaires sur le service professionnel et l'attention aux détails.",
-      "review4": "Avis soulignant la fiabilité et la qualité de l'artisanat."
+      "review2": "Un autre avis client soulignant la qualité du travail.",
+      "review3": "Retour sur le service professionnel et l'attention aux détails.",
+      "review4": "Avis mettant l'accent sur la fiabilité et la qualité de l'artisanat."
     },
     "clientName": "Nom du Client",
     "projectType": "Type de Projet",
-    "comingSoon": "Bientôt Disponible"
+    "comingSoon": "À Venir"
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "Intéressé à travailler ensemble ou avez-vous une question ? Contactez-moi ci-dessous !",
+    "subtitle": "Intéressé par une collaboration ou avez-vous une question ? Contactez-moi ci-dessous !",
     "form": {
       "name": "Nom",
       "email": "E-mail",

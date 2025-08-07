@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Charlotte Stone – Trainee Welder | MIG/TIG Welding in Staffordshire",
+    "title": "Charlotte Stone – Trainee Welder | MIG Welding and CNC machining in Staffordshire",
     "description": "A portfolio showcasing welding projects and skills by Charlotte Stone.",
     "keywords": "welding, portfolio, projects, skills, work"
   },
   "nav": {
-    "brand": "Charlotte Stone Welding",
+    "brand": "Charlotte Stone Welding / Machining",
     "toggle": "Toggle navigation",
     "home": "Home",
     "about": "About",
@@ -16,24 +16,24 @@
   },
   "hero": {
     "name": "Charlotte Stone",
-    "subtitle": "Trainee Welder | MIG & TIG Welding in Staffordshire",
-    "tagline": "Passionate about precision, quality, and craftsmanship in every weld.",
+    "subtitle": "Trainee MIG Welder and CNC Machinist in Staffordshire",
+    "tagline": "Passionate about precision, quality, and craftsmanship in every creation.",
     "cta": "View My Work"
   },
   "about": {
     "title": "About Me",
-    "paragraph1": "Hello! I'm Charlotte, a trainee welder based in Staffordshire with a growing focus on MIG and TIG welding. I take pride in creating strong, clean, and reliable welds—whether it's for practical builds or finer fabrication work. I came to welding from a very different background, but what drives me is the same: a love for hands-on work, learning new skills, and doing the job right. I'm always looking for new challenges and opportunities to grow in this trade.",
+    "paragraph1": "Hello! I'm Charlotte, a trainee welder and machinist based in Staffordshire with a growing focus on MIG and TIG welding. I take pride in creating strong, clean, and reliable welds—whether it's for practical builds or finer fabrication work. I came to welding from a very different background, but what drives me is the same: a love for hands-on work, learning new skills, and doing the job right. I'm always looking for new challenges and opportunities to grow in this trade.",
     "paragraph2": "I believe good welding is about more than strength—it's about precision, patience, and pride in the result."
   },
   "skills": {
     "title": "Training & Skills",
     "migTig": {
-      "title": "MIG & TIG Welding",
+      "title": "MIG Welding",
       "description": "Certified in MIG and TIG welding techniques with hands-on experience"
     },
     "materials": {
-      "title": "Materials Expertise",
-      "description": "Experience with steel, stainless steel, and aluminum welding"
+      "title": "CNC Machining",
+      "description": "Experience with CNC machining processes and techniques"
     },
     "blueprint": {
       "title": "Blueprint Reading",
