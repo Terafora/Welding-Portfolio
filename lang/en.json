@@ -22,14 +22,14 @@
   },
   "about": {
     "title": "About Me",
-    "paragraph1": "Hello! I'm Charlotte, a trainee welder and machinist based in Staffordshire with a growing focus on MIG and TIG welding. I take pride in creating strong, clean, and reliable welds—whether it's for practical builds or finer fabrication work. I came to welding from a very different background, but what drives me is the same: a love for hands-on work, learning new skills, and doing the job right. I'm always looking for new challenges and opportunities to grow in this trade.",
-    "paragraph2": "I believe good welding is about more than strength—it's about precision, patience, and pride in the result."
+    "paragraph1": "Hello! I'm Charlotte, a trainee MIG welder and machinist based in Staffordshire with a growing focus on CNC Machining. I take pride in creating strong, clean, and reliable products—whether it's for practical builds or finer fabrication work. I came to welding and machining from a very different background, but what drives me is the same: a love for hands-on work, learning new skills, and doing the job right. I'm always looking for new challenges and opportunities to grow in this trade.",
+    "paragraph2": "I believe good welding and machining is about more than strength — it's about precision, patience, and pride in the result."
   },
   "skills": {
     "title": "Training & Skills",
     "migTig": {
       "title": "MIG Welding",
-      "description": "Certified in MIG and TIG welding techniques with hands-on experience"
+      "description": "Certified in MIG welding techniques with hands-on experience"
     },
     "materials": {
       "title": "CNC Machining",
